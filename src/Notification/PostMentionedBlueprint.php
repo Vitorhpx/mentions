@@ -72,7 +72,7 @@ class PostMentionedBlueprint implements BlueprintInterface, MailableInterface
      */
     public function getEmailSubject()
     {
-        return "{$this->reply->user->display_name} replied to your post in {$this->post->discussion->title}";
+        return "{$this->reply->user->display_name} respondeu seu post em {$this->post->discussion->title}";
     }
 
     /**
